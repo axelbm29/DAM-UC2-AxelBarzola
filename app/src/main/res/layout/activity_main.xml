@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fondo_app"
+    android:backgroundTint="@color/fondo_app"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,6 +17,7 @@
         android:layout_marginEnd="101dp"
         android:layout_marginBottom="42dp"
         android:text="EXAMEN DE ADMISION 2024"
+        android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
@@ -23,15 +26,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_enviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="161dp"
-        android:text="Enviar"
+        android:backgroundTint="@color/black"
+        android:drawableLeft="@drawable/baseline_send_24"
+        android:text="@string/button_enviar"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
@@ -65,6 +70,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="28dp"
         android:text="Clave"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -75,6 +81,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="32dp"
         android:text="Fecha de Nacimiento"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -93,6 +100,7 @@
             android:layout_width="83dp"
             android:layout_height="wrap_content"
             android:text="@string/radiobutton_radio"
+            android:textColor="@color/white"
             android:textSize="10sp" />
 
         <RadioButton
@@ -100,6 +108,7 @@
             android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:text="@string/radiobutton_internet"
+            android:textColor="@color/white"
             android:textSize="10sp" />
 
         <RadioButton
@@ -107,6 +116,7 @@
             android:layout_width="101dp"
             android:layout_height="wrap_content"
             android:text="@string/radiobutton_amigo"
+            android:textColor="@color/white"
             android:textSize="10sp" />
 
         <RadioButton
@@ -114,6 +124,7 @@
             android:layout_width="91dp"
             android:layout_height="wrap_content"
             android:text="@string/radiobutton_publi"
+            android:textColor="@color/white"
             android:textSize="10sp" />
     </RadioGroup>
 
@@ -124,6 +135,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
         android:text="Apellidos y Nombres"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -142,6 +154,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:text="@string/radiobutton_is"
+            android:textColor="@color/white"
             android:textSize="8sp" />
 
         <RadioButton
@@ -150,6 +163,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:text="@string/radiobutton_ia"
+            android:textColor="@color/white"
             android:textSize="8sp" />
 
         <RadioButton
@@ -158,6 +172,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:text="@string/radiobutton_im"
+            android:textColor="@color/white"
             android:textSize="8sp" />
 
         <RadioButton
@@ -166,6 +181,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/radiobutton_adm"
+            android:textColor="@color/white"
             android:textSize="8sp" />
     </RadioGroup>
 
@@ -189,6 +205,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:text="Correo electronico"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -198,6 +215,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="¿Por qué medio se enteró de la convocatoria?"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.188"
         app:layout_constraintStart_toStartOf="parent"
@@ -223,6 +241,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="60dp"
         android:text="Carrera"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 

@@ -8,4 +8,5 @@
     <string name="radiobutton_internet">Internet</string>
     <string name="radiobutton_amigo">Amigo</string>
     <string name="radiobutton_publi">Publicidad</string>
+    <string name="button_enviar">Enviar</string>
 </resources>
