@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">DAM_AxelBarzola</string>
+    <string name="radiobutton_is">Ing. Sistemas</string>
+    <string name="radiobutton_ia">Ing. Ambiental</string>
+    <string name="radiobutton_im">Ing. Mecanica</string>
+    <string name="radiobutton_adm">Administración</string>
+    <string name="radiobutton_radio">Radio</string>
+    <string name="radiobutton_internet">Internet</string>
+    <string name="radiobutton_amigo">Amigo</string>
+    <string name="radiobutton_publi">Publicidad</string>
 </resources>
